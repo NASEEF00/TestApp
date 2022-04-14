@@ -201,16 +201,15 @@
         android:layout_marginLeft="135dp"
         android:layout_marginTop="620dp"
         android:ems="10"
-        android:inputType="textPassword"/>
+        android:inputType="textPassword" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/reg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="155dp"
         android:layout_marginTop="670dp"
-        android:text="Register"
-        />
+        android:text="Register" />
 
 
 </RelativeLayout>
