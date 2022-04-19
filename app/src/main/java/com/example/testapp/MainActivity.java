@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
                     e.printStackTrace();
                 }
 
-                Intent i = new Intent(getApplicationContext(),Registerpage.class);
+                Intent i = new Intent(getApplicationContext(),Loginpage.class);
                 startActivity(i);
             }
         };
