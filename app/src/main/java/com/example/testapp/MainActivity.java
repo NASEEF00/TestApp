@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
                 Intent i = new Intent(getApplicationContext(),Loginpage.class);
                 startActivity(i);
+                finish();
             }
         };
         obj.start();

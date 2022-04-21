@@ -8,6 +8,7 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -64,6 +65,7 @@ public class Loginpage extends AppCompatActivity {
 
             }
         });
+
         un = (EditText) findViewById(R.id.uname);
         un.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -80,6 +82,9 @@ public class Loginpage extends AppCompatActivity {
                 pw.setText(Password);
             }
         });
+
+
+
 
 
 

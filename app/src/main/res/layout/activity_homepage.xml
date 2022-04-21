@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="100dp"
         android:layout_marginTop="40dp"
-        android:text="Home page"
+        android:text="List of stars"
         android:textSize="35dp"
         android:textStyle="bold" />
 
@@ -20,8 +20,15 @@
         android:id="@+id/textView7"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="350dp"
+        android:layout_marginTop="80dp"
         android:gravity="center"
         android:textColor="#DD0A0A"
         android:textSize="30dp" />
+
+    <ListView
+        android:id="@+id/listview1"
+        android:layout_width="288dp"
+        android:layout_height="454dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="140dp" />
 </RelativeLayout>

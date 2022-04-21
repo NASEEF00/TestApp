@@ -94,6 +94,7 @@
         android:layout_height="40dp"
         android:layout_marginLeft="130dp"
         android:layout_marginTop="280dp" />
+
     <TextView
         android:id="@+id/tv6"
         android:layout_width="wrap_content"
@@ -105,40 +106,42 @@
         android:textSize="18dp"
         android:textStyle="bold" />
 
-    <RadioButton
-        android:id="@+id/radioButton"
+    <RadioGroup
+        android:id="@+id/rg000"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="150dp"
-        android:layout_marginTop="330dp"
-        android:text="Male " />
+        android:layout_marginTop="340dp"
+        android:layout_marginBottom="300dp">
 
-    <RadioButton
-        android:id="@+id/radioButton2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="230dp"
-        android:layout_marginTop="330dp"
-        android:text="Female " />
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male " />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="-50dp"
+            android:text="Female " />
+
+
+    </RadioGroup>
 
     <TextView
         android:id="@+id/tv7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="5dp"
-        android:layout_marginTop="400dp"
+        android:layout_marginTop="440dp"
         android:text="Languages Known"
         android:textColor="@color/black"
         android:textSize="18dp"
         android:textStyle="bold" />
-
-    <CheckBox
-        android:id="@+id/checkBox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="160dp"
-        android:layout_marginTop="390dp"
-        android:text="Malayalam" />
 
     <CheckBox
         android:id="@+id/checkBox2"
@@ -146,6 +149,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="160dp"
         android:layout_marginTop="430dp"
+        android:onClick="register"
         android:text="English" />
 
     <CheckBox
@@ -154,7 +158,8 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="160dp"
         android:layout_marginTop="470dp"
-        android:text="Hindi" />
+        android:onClick="register"
+        android:text="Malayalam" />
 
     <CheckBox
         android:id="@+id/checkBox4"
@@ -162,7 +167,8 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="160dp"
         android:layout_marginTop="510dp"
-        android:text="Tamil" />
+        android:onClick="register"
+        android:text="Hindi" />
 
     <TextView
         android:id="@+id/tv8"
@@ -173,7 +179,8 @@
         android:text="User Name"
         android:textColor="@color/black"
         android:textSize="18dp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        tools:ignore="OnClick" />
 
     <EditText
         android:id="@+id/et8"
